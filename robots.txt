@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://notes.ashishghimire.com/sitemap.xml

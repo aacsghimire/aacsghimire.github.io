@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git on NOTES</title>
+    <link>https://notes.ashishghimire.com/tags/git/</link>
+    <description>Recent content in git on NOTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Dec 2022 23:35:24 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Host Hugo Sites On GITHUB</title>
+      <link>https://notes.ashishghimire.com/posts/hugotogithub/</link>
+      <pubDate>Thu, 15 Dec 2022 23:35:24 +1100</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/hugotogithub/</guid>
+      <description>Hugo is free, static, fast and minimal website creator. In this blog we are going to setup this current Hugo site (without modification) and deploy to Github Pages for free. I am also going to setup so new posts can be added and published on your website everytime.
+Login Github Install Hugo On System Create Two Repos on Github a. blog Houses our hugo code b. username.github.io For website generated pages Get Theme for Hugo (PaperMod) Clone &amp;lsquo;blog &amp;rsquo; Repo in Desktop (notesite) git clone https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
