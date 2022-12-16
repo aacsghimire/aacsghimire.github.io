@@ -17,14 +17,5 @@
 Login Github Install Hugo On System Create Two Repos on Github a. blog Houses our hugo code b. username.github.io For website generated pages Get Theme for Hugo (PaperMod) Clone &amp;lsquo;blog &amp;rsquo; Repo in Desktop (notesite) git clone https://github.</description>
     </item>
     
-    <item>
-      <title>Testing Push</title>
-      <link>https://notes.ashishghimire.com/posts/testing-push/</link>
-      <pubDate>Thu, 15 Dec 2022 23:35:24 +1100</pubDate>
-      
-      <guid>https://notes.ashishghimire.com/posts/testing-push/</guid>
-      <description>Lets see if i have to push</description>
-    </item>
-    
   </channel>
 </rss>
