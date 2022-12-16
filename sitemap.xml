@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://notes.ashishghimire.com/categories/</loc>
-    <lastmod>2022-12-15T23:35:24+11:00</lastmod>
-  </url><url>
     <loc>https://notes.ashishghimire.com/tags/free-hosting/</loc>
-    <lastmod>2022-12-15T23:35:24+11:00</lastmod>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
   </url><url>
     <loc>https://notes.ashishghimire.com/tags/git/</loc>
-    <lastmod>2022-12-15T23:35:24+11:00</lastmod>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
   </url><url>
     <loc>https://notes.ashishghimire.com/tags/github/</loc>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/tags/install/</loc>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/posts/githubinstall/</loc>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/</loc>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/posts/</loc>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/tags/quick-deploy/</loc>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/posts/github-shortcut/</loc>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/tags/</loc>
+    <lastmod>2022-12-16T12:43:19+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/categories/</loc>
     <lastmod>2022-12-15T23:35:24+11:00</lastmod>
   </url><url>
     <loc>https://notes.ashishghimire.com/posts/hugotogithub/</loc>
@@ -20,13 +41,7 @@
     <loc>https://notes.ashishghimire.com/tags/hugo/</loc>
     <lastmod>2022-12-15T23:35:24+11:00</lastmod>
   </url><url>
-    <loc>https://notes.ashishghimire.com/</loc>
-    <lastmod>2022-12-15T23:35:24+11:00</lastmod>
-  </url><url>
-    <loc>https://notes.ashishghimire.com/posts/</loc>
-    <lastmod>2022-12-15T23:35:24+11:00</lastmod>
-  </url><url>
-    <loc>https://notes.ashishghimire.com/tags/</loc>
+    <loc>https://notes.ashishghimire.com/posts/testing-push/</loc>
     <lastmod>2022-12-15T23:35:24+11:00</lastmod>
   </url><url>
     <loc>https://notes.ashishghimire.com/categories/tutorials/</loc>

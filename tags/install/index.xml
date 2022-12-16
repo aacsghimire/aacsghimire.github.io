@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>NOTES</title>
-    <link>https://notes.ashishghimire.com/</link>
-    <description>Recent content on NOTES</description>
+    <title>install on NOTES</title>
+    <link>https://notes.ashishghimire.com/tags/install/</link>
+    <description>Recent content in install on NOTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Dec 2022 12:43:19 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Dec 2022 12:43:19 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/install/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Github</title>
       <link>https://notes.ashishghimire.com/posts/githubinstall/</link>
@@ -37,27 +37,6 @@ git push origin main
 username
 api key</description>
     </item>
-    
-    <item>
-      <title>Host Hugo Sites On GITHUB</title>
-      <link>https://notes.ashishghimire.com/posts/hugotogithub/</link>
-      <pubDate>Thu, 15 Dec 2022 23:35:24 +1100</pubDate>
-      
-      <guid>https://notes.ashishghimire.com/posts/hugotogithub/</guid>
-      <description>Hugo is free, static, fast and minimal website creator. In this blog we are going to setup this current Hugo site (without modification) and deploy to Github Pages for free. I am also going to setup so new posts can be added and published on your website everytime.
-Login Github Install Hugo On System Create Two Repos on Github a. blog Houses our hugo code b. username.github.io For website generated pages Get Theme for Hugo (PaperMod) Clone &amp;lsquo;blog &amp;rsquo; Repo in Desktop (notesite) git clone https://github.</description>
-    </item>
-    
-    <item>
-      <title>Testing Push</title>
-      <link>https://notes.ashishghimire.com/posts/testing-push/</link>
-      <pubDate>Thu, 15 Dec 2022 23:35:24 +1100</pubDate>
-      
-      <guid>https://notes.ashishghimire.com/posts/testing-push/</guid>
-      <description>Lets see if i have to push</description>
-    </item>
-    
-    
     
   </channel>
 </rss>

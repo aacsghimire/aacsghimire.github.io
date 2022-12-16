@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>quick deploy on NOTES</title>
+    <link>https://notes.ashishghimire.com/tags/quick-deploy/</link>
+    <description>Recent content in quick deploy on NOTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Dec 2022 12:43:19 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/quick-deploy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quickly Deploy </title>
+      <link>https://notes.ashishghimire.com/posts/github-shortcut/</link>
+      <pubDate>Fri, 16 Dec 2022 12:43:19 +1100</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/github-shortcut/</guid>
+      <description>#!/bin/bash
+cd notesite/blog/notes
+hugo
+git add .
+git commit -m &amp;ldquo;new post&amp;rdquo;
+git push origin main
+_username
+api key
+cd public
+git commit -m &amp;ldquo;new post&amp;rdquo;
+git push origin main
+username
+api key</description>
+    </item>
+    
+  </channel>
+</rss>
