@@ -14,7 +14,7 @@
       
       <guid>https://notes.ashishghimire.com/posts/github-shortcut/</guid>
       <description>Yes there are too many codes to just deploy your post, now to tackle that hassle we will create a code to upload everything with just one line. In order to go thorough you need to configure your default credentials. Here is a Stack Overflow Link for time being, before i post. Steps:
-Outside your blog folder create an empty file. Rename it to deploy.sh Now we need to edit the code you can copy the code below make sure yoiu change the name of the directories.</description>
+Outside your blog folder create an empty file. Rename it to deploy.sh Now we need to edit the code, you can copy the code below.</description>
     </item>
     
   </channel>
