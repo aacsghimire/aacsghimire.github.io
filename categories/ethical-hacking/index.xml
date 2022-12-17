@@ -27,5 +27,16 @@ Password OSINT Credentials Stuffing Automate Prevoiusly found username &amp;amp;
       <description>Passive Reconnaissance Physical Location Satellite Images Drone Recon Building Layouts, etc. Social Job Information Employees Name, Job, Title, Manager Name Picture Badge Picture Desk Photos Computer Photos Web/Host Target Validation Whois nslookup dnsrecon Finding Subdomains Google Fu dig nmap sublist3r bluto crt.sh Fingerprinting Finding what is used on the app. nmap wappalyzer WhatWeb BuiltWith Wetcat Data Breaches haveibeenpwned Breach-Parse weleakinfo </description>
     </item>
     
+    <item>
+      <title>The Ethical Hacker Methodology </title>
+      <link>https://notes.ashishghimire.com/posts/day1-hacking-methodology/</link>
+      <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/day1-hacking-methodology/</guid>
+      <description>Reconissance Info Gathering. Active
+Scanning and Enumeration Using Different Tools Finding Open Ports and Vulneribilities Passive
+Google Search Social Media Scan Facebook Twitter Linkedin, etc. Scanning &amp;amp; Enumeration Scanning Through PC Nmap Nessus Nikto, etc.7 Gaining Access Exploitation Maintaining Access Also Scanning And Enumeration Covering Tracks Deleting Logs and Cleaning Up The Method is also called 5 Stages of Ethical Hacking.</description>
+    </item>
+    
   </channel>
 </rss>
