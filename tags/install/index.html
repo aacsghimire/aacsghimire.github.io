@@ -261,11 +261,11 @@ Outside your blog folder create an empty file. Rename it to deploy.sh Now we nee
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
-            document.getElementById("siteLogo").src = "/img/logo/dark.png";
+            document.getElementById("siteLogo").src = "/img/logo/light.png";
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
-            document.getElementById("siteLogo").src = "/img/logo/light.png";
+            document.getElementById("siteLogo").src = "/img/logo/dark.png";
         }
     })
 
