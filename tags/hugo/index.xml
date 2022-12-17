@@ -14,7 +14,10 @@
       
       <guid>https://notes.ashishghimire.com/posts/hugotogithub/</guid>
       <description>Hugo is free, static, fast and minimal website creator. In this blog we are going to setup this current Hugo site (without modification) and deploy to Github Pages for free. I am also going to setup so new posts can be added and published on your website everytime.
-Login Github Install Hugo On System Create Two Repos on Github a. blog Houses our hugo code b. username.github.io For website generated pages Get Theme for Hugo (PaperMod) Clone &amp;lsquo;blog &amp;rsquo; Repo in Desktop (notesite) git clone https://github.</description>
+Login Github
+Install Hugo On System
+Create Two Repos on Github
+a. blog Houses our hugo code b. username.github.io For website generated pages</description>
     </item>
     
   </channel>
