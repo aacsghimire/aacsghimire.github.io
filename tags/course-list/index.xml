@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Course List on NOTES</title>
+    <link>https://notes.ashishghimire.com/tags/course-list/</link>
+    <description>Recent content in Course List on NOTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Dec 2022 12:43:19 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/course-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Structure for Ethical Hacking</title>
+      <link>https://notes.ashishghimire.com/posts/coursestructure/</link>
+      <pubDate>Fri, 16 Dec 2022 12:43:19 +1100</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/coursestructure/</guid>
+      <description>The course that i am following is from TCM Academy
+Here is the course structure which you can also see in TCM-Sec Website The Cyber Mentor Youtube and also on before enrolling. I am going to skip to The Ethical Hacker Methodology.
+Special Thanks &amp;amp; Credits
+PNPT Certification Path Progression (2:32)
+Introduction Course Introduction (7:24)
+Course Discord (Important) (2:45)
+A Day in the Life of an Ethical Hacker (20:55)
+Why You Shouldn&amp;rsquo;t Be An Ethical Hacker</description>
+    </item>
+    
+  </channel>
+</rss>
