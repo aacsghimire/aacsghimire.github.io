@@ -92,8 +92,13 @@ if (!doNotTrack) {
     <nav class="nav">
         <div class="logo">
             <a href="https://notes.ashishghimire.com/" accesskey="h" title="Ashish (Alt + H)">
-                <img src="https://notes.ashishghimire.com/img/logo/dark.png" alt="" aria-label="logo"
-                    height="35">Ashish</a>
+                <img id="siteLogo" src="https://notes.ashishghimire.com/img/logo/dark.png" alt="logo" aria-label="logo"
+                    height="35">
+                    <script>
+                        if (document.body.className.includes("dark")) {
+                            document.getElementById("siteLogo").src = "/img/logo/dark.png";
+                        }
+                    </script>Ashish</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -217,9 +222,11 @@ if (!doNotTrack) {
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
+            document.getElementById("siteLogo").src = "/img/logo/dark.png";
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
+            document.getElementById("siteLogo").src = "/img/logo/light.png";
         }
     })
 
