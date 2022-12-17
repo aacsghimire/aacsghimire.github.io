@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>5 Stages of Ethical Hacker on NOTES</title>
+    <link>https://notes.ashishghimire.com/tags/5-stages-of-ethical-hacker/</link>
+    <description>Recent content in 5 Stages of Ethical Hacker on NOTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/5-stages-of-ethical-hacker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Ethical Hacker Methodology </title>
+      <link>https://notes.ashishghimire.com/posts/day1-hacking-methodology/</link>
+      <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/day1-hacking-methodology/</guid>
+      <description>Reconissance Info Gathering. Active
+Scanning and Enumeration Using Different Tools Finding Open Ports and Vulneribilities Passive
+Google Search Social Media Scan Facebook Twitter Linkedin, etc. Scanning &amp;amp; Enumeration Scanning Through PC Nmap Nessus Nikto, etc.7 Gaining Access Exploitation Maintaining Access Also Scanning And Enumeration Covering Tracks Deleting Logs and Cleaning Up The Method is also called 5 Stages of Ethical Hacking.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,18 @@
     <description>Recent content in Posts on NOTES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Dec 2022 12:43:19 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notes.ashishghimire.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Ethical Hacker Methodology </title>
+      <link>https://notes.ashishghimire.com/posts/day1-hacking-methodology/</link>
+      <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/day1-hacking-methodology/</guid>
+      <description>Reconissance Info Gathering. Active
+Scanning and Enumeration Using Different Tools Finding Open Ports and Vulneribilities Passive
+Google Search Social Media Scan Facebook Twitter Linkedin, etc. Scanning &amp;amp; Enumeration Scanning Through PC Nmap Nessus Nikto, etc.7 Gaining Access Exploitation Maintaining Access Also Scanning And Enumeration Covering Tracks Deleting Logs and Cleaning Up The Method is also called 5 Stages of Ethical Hacking.</description>
+    </item>
+    
     <item>
       <title>Course Structure for Ethical Hacking</title>
       <link>https://notes.ashishghimire.com/posts/coursestructure/</link>
