@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://notes.ashishghimire.com/categories/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/categories/ethical-hacking/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/tags/hack-software/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/tags/hacking-applications/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/tags/hacking-websites/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/tags/information-gathering/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/posts/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/tags/recon/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/posts/reconnaissancepart1/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
+    <loc>https://notes.ashishghimire.com/tags/</loc>
+    <lastmod>2022-12-17T22:01:58+11:00</lastmod>
+  </url><url>
     <loc>https://notes.ashishghimire.com/tags/5-stages-of-ethical-hacker/</loc>
     <lastmod>2022-12-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,15 +42,6 @@
     <lastmod>2022-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notes.ashishghimire.com/tags/ethical-hacker/</loc>
-    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notes.ashishghimire.com/</loc>
-    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notes.ashishghimire.com/posts/</loc>
-    <lastmod>2022-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notes.ashishghimire.com/tags/</loc>
     <lastmod>2022-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notes.ashishghimire.com/tags/tcm-sec/</loc>
@@ -64,9 +88,6 @@
   </url><url>
     <loc>https://notes.ashishghimire.com/tags/tcm-sec-course/</loc>
     <lastmod>2022-12-16T12:43:19+11:00</lastmod>
-  </url><url>
-    <loc>https://notes.ashishghimire.com/categories/</loc>
-    <lastmod>2022-12-15T23:35:24+11:00</lastmod>
   </url><url>
     <loc>https://notes.ashishghimire.com/posts/hugotogithub/</loc>
     <lastmod>2022-12-15T23:35:24+11:00</lastmod>
