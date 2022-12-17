@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Email Osint on NOTES</title>
+    <link>https://notes.ashishghimire.com/tags/email-osint/</link>
+    <description>Recent content in Email Osint on NOTES</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Dec 2022 22:38:00 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/email-osint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ReconaissancePart2</title>
+      <link>https://notes.ashishghimire.com/posts/reconaissancepart2/</link>
+      <pubDate>Sat, 17 Dec 2022 22:38:00 +1100</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/reconaissancepart2/</guid>
+      <description>OSINT Open Source Intelligence Email OSINT Email Discovery hunter.io phonebook.cz voilanorbert.com Clearbit - Chromium Plugin tools.verifyemailaddress.io (Verify Email Address) Use Forgot Password to tie email accounts. In this way a recovery email can be tied to another email address.
+Password OSINT </description>
+    </item>
+    
+  </channel>
+</rss>
