@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vulnerable Machine on NOTES of Ethical Hacking Student</title>
+    <link>https://notes.ashishghimire.com/tags/vulnerable-machine/</link>
+    <description>Recent content in Vulnerable Machine on NOTES of Ethical Hacking Student</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Dec 2022 22:52:53 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/vulnerable-machine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing VMware and Vulnhub Kioptrix</title>
+      <link>https://notes.ashishghimire.com/posts/installingkioptrix/</link>
+      <pubDate>Sun, 18 Dec 2022 22:52:53 +1100</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/installingkioptrix/</guid>
+      <description>So our Journey of Hack starts here. We are going to install VMware to run our Vulnerable Machine Kioptrix.
+Download VMware or Virtual Box Download Kioptrix a ready made Vulnerable Machine provided by TCM-SEC from Vulnhub Now Import downloaded VM Image on your virtual engine. - Open - Default Username: john - Default password: TwoCows2 </description>
+    </item>
+    
+  </channel>
+</rss>
