@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NMAP on NOTES of Ethical Hacking Student</title>
+    <link>https://notes.ashishghimire.com/tags/nmap/</link>
+    <description>Recent content in NMAP on NOTES of Ethical Hacking Student</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Dec 2022 23:11:31 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/nmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vulnhub Kioptrix Walkthrough Part 1</title>
+      <link>https://notes.ashishghimire.com/posts/kioptrixwalkthrough1/</link>
+      <pubDate>Sun, 18 Dec 2022 23:11:31 +1100</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/kioptrixwalkthrough1/</guid>
+      <description>Default username: John Default Password: TwoCows2 Tips: Save your all Scans in text/image for future use
+Lets find our IP Start Virtual Machine ping 8.8.8.8 in your main OS terminal, this will give us ip of our target machine Now go to your main machine Kali run sudo arp-scan -l This will give us IP address - Mac Address and Vendor We are looking for our matching IP. or Azureware/VMware</description>
+    </item>
+    
+  </channel>
+</rss>
