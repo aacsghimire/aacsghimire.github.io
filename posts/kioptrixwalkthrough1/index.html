@@ -112,8 +112,8 @@ Lets find our IP Start Virtual Machine ping 8.8.8.8 in your main OS terminal, th
   "keywords": [
     "Vulnhub", "Kioptrix", "Walkthrough", "TCM-SEC", "NMAP", "netdiscover", "ARP-SCAN"
   ],
-  "articleBody": "Default username: John Default Password: TwoCows2 Tips: Save your all Scans in text/image for future use\nLets find our IP Start Virtual Machine ping 8.8.8.8 in your main OS terminal, this will give us ip of our target machine Now go to your main machine Kali run sudo arp-scan -l This will give us IP address - Mac Address and Vendor We are looking for our matching IP. or Azureware/VMware\nOptional Now go to terminal - sudo netdiscover -r your IP/subnet mask - sudo netdiscover -r 192.168.0.0/24 This did not work in my case\nLook for OPEN PORTS nmap sudo nmap -sS 192.168.0.26 -sS stands for stealth mode For Full scan with nmap: Gives a extensive information sudo nmap -T4 -p- -A ip_of_target Note: Here -T4 is for speed, -p- all Ports and -A for all info, OS, Fingerprinting, applications and their version of applications, etc. NMAP Common Nmap commands and Uses Host Discovery As long as there is nmap . . . ip it is going to discover hosts attributes order does not matter start with nmap or sudo nmap and end with ip To scan only UDP nmap -sU -T4 192.168.0.26 Note: removing -A makes it faster because it only scan top UDPs ",
-  "wordCount" : "205",
+  "articleBody": "Default username: John Default Password: TwoCows2 Tips: Save your all Scans in text/image for future use\nLets find our IP Start Virtual Machine ping 8.8.8.8 in your main OS terminal, this will give us ip of our target machine Now go to your main machine Kali run sudo arp-scan -l This will give us IP address - Mac Address and Vendor We are looking for our matching IP. or Azureware/VMware\nOptional\nNow go to terminal - sudo netdiscover -r your IP/subnet mask - sudo netdiscover -r 192.168.0.0/24 This did not work in my case\nLook for OPEN PORTS nmap sudo nmap -sS 192.168.0.26 -sS stands for stealth mode For Full scan with nmap: Gives extensive information sudo nmap -T4 -p- -A ip_of_target\nNote: Here -T4 is for speed, -p- all Ports and -A for all info, OS, Fingerprinting, applications and their version of applications, etc. NMAP Common Nmap commands and Uses Host Discovery As long as there is nmap . . . ip it is going to discover hosts attribute order does not matter start with nmap or sudo nmap and end with ip To scan only UDP nmap -sU -T4 192.168.0.26 Note: removing -A makes it faster because it only scan few Info Here we found:\nTarget IP, Mac Address OPEN TCP Ports OS, application uses, and Versions Some more useful info. ",
+  "wordCount" : "223",
   "inLanguage": "en",
   "datePublished": "2022-12-18T23:11:31+11:00",
   "dateModified": "2022-12-18T23:11:31+11:00",
@@ -226,14 +226,14 @@ Lets find our IP Start Virtual Machine ping 8.8.8.8 in your main OS terminal, th
       Vulnhub Kioptrix Walkthrough Part 1
     </h1>
     <hr>
-    <div class="post-meta"><span title='2022-12-18 23:11:31 +1100 AEDT'>December 18, 2022</span>&nbsp;·&nbsp;1 min
+    <div class="post-meta"><span title='2022-12-18 23:11:31 +1100 AEDT'>December 18, 2022</span>&nbsp;·&nbsp;2 min
 
 </div>
   </header> 
   <div class="post-content"><pre tabindex="0"><code>Default username: John
 Default Password: TwoCows2
 </code></pre><p><em><em>Tips: Save your all Scans in text/image for future use</em></em></p>
-<h5 id="lets-find-our-ip">Lets find our IP<a hidden class="anchor" aria-hidden="true" href="#lets-find-our-ip">#</a></h5>
+<h3 id="lets-find-our-ip">Lets find our IP<a hidden class="anchor" aria-hidden="true" href="#lets-find-our-ip">#</a></h3>
 <ul>
 <li>Start Virtual Machine</li>
 <li><code>ping 8.8.8.8</code> in your main OS terminal, this will give us ip of our target machine
@@ -246,13 +246,13 @@ Default Password: TwoCows2
 <p>This will give us <em>IP address - Mac Address and Vendor</em>
 We are looking for our matching IP. or <em>Azureware/VMware</em></p>
 <hr>
-<p><em><em>Optional</em></em>
-Now go to terminal
+<p><em><em>Optional</em></em></p>
+<p>Now go to terminal
 - <code>sudo netdiscover -r your IP/subnet mask</code>
 - <code>sudo netdiscover -r 192.168.0.0/24</code>
 <em><em>This did not work in my case</em></em></p>
 <hr>
-<h5 id="look-for-open-ports">Look for OPEN PORTS<a hidden class="anchor" aria-hidden="true" href="#look-for-open-ports">#</a></h5>
+<h3 id="look-for-open-ports">Look for OPEN PORTS<a hidden class="anchor" aria-hidden="true" href="#look-for-open-ports">#</a></h3>
 <pre><code>nmap
 </code></pre>
 <ul>
@@ -260,28 +260,30 @@ Now go to terminal
 <img loading="lazy" src="/posts/img/kioptrixwt1_3.png" alt="kioptrixIP"  />
 </li>
 </ul>
-<h6 id="for-full-scan-with-nmap">For Full scan with <em>nmap</em>:<a hidden class="anchor" aria-hidden="true" href="#for-full-scan-with-nmap">#</a></h6>
-<pre><code>Gives a extensive information
+<h3 id="for-full-scan-with-nmap">For Full scan with <em>nmap</em>:<a hidden class="anchor" aria-hidden="true" href="#for-full-scan-with-nmap">#</a></h3>
+<pre><code>Gives extensive information
 </code></pre>
 <ul>
-<li><code>sudo nmap -T4 -p- -A ip_of_target</code>
-<em><em>Note: Here -T4 is for speed, -p- all Ports and  -A for all info, OS, Fingerprinting, applications and their version of applications, etc.</em></em>
+<li>
+<p><code>sudo nmap -T4 -p- -A ip_of_target</code></p>
+<p><em><em>Note: Here -T4 is for speed, -p- all Ports and  -A for all info, OS, Fingerprinting, applications and their version of applications, etc.</em></em>
 <img loading="lazy" src="/posts/img/kioptrixwt1_4.png" alt="kioptrixIP nmap ip"  />
+</p>
 </li>
 </ul>
-<h6 id="nmap">NMAP<a hidden class="anchor" aria-hidden="true" href="#nmap">#</a></h6>
+<h3 id="nmap">NMAP<a hidden class="anchor" aria-hidden="true" href="#nmap">#</a></h3>
 <pre><code>Common Nmap commands and Uses
 </code></pre>
 <ul>
 <li>Host Discovery
 <ul>
 <li>As long as there is <code>nmap . . .  ip</code>  it is going to discover hosts</li>
-<li>attributes order does not matter start with <code>nmap</code> or <code>sudo nmap</code> and end with <code>ip</code></li>
+<li>attribute order does not matter start with <code>nmap</code> or <code>sudo nmap</code> and end with <code>ip</code></li>
 <li>To scan only UDP
 <ul>
 <li><code>nmap -sU -T4 192.168.0.26</code>
 <ul>
-<li>Note: removing -A makes it faster because it only scan top UDPs
+<li>Note: removing -A makes it faster because it only scan few Info
 <img loading="lazy" src="/posts/img/kioptrixwt1_5.png" alt="kioptrix NMAP udp scan"  />
 </li>
 </ul>
@@ -290,6 +292,14 @@ Now go to terminal
 </li>
 </ul>
 </li>
+</ul>
+<hr>
+<p>Here we found:</p>
+<ul>
+<li>Target IP, Mac Address</li>
+<li>OPEN TCP Ports</li>
+<li>OS, application uses, and Versions</li>
+<li>Some more useful info.</li>
 </ul>
 
 
