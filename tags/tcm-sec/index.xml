@@ -6,7 +6,16 @@
     <description>Recent content in TCM-Sec on NOTES of Ethical Hacking Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Dec 2022 23:11:31 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/tcm-sec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Dec 2022 22:51:08 +1100</lastBuildDate><atom:link href="https://notes.ashishghimire.com/tags/tcm-sec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vulnhub Kioptrix Walkthrough Part 2</title>
+      <link>https://notes.ashishghimire.com/posts/kioptrixwalkthrough2/</link>
+      <pubDate>Thu, 22 Dec 2022 22:51:08 +1100</pubDate>
+      
+      <guid>https://notes.ashishghimire.com/posts/kioptrixwalkthrough2/</guid>
+      <description>Default username: John Default Password: TwoCows2 NIKTO `Web Vulneribility Scanner` nikto -h target ip* i.e nikto -host url Findings Outdated Applications - Google common exploits for given Version Apache mod_ssl openssl mod_ssl vulnerable to a remote buffer overflow Little bit of Directory Busting DIRBUSTER Directory Busting / Finding Folders ALternatives: gobuster, dirb, ferox boster dirbuster&amp;amp; insert target url on Target URL section Check &amp;lsquo;Go Faster&amp;rsquo; Check List based brute force Click browse, navigate to /usr/share/wordlists/dirbuster/ Select a list File extension: php,txt,zip choose the extension you want to look for Note: more extension more time START Tip: Dir Scan takes a while.</description>
+    </item>
+    
     <item>
       <title>Vulnhub Kioptrix Walkthrough Part 1</title>
       <link>https://notes.ashishghimire.com/posts/kioptrixwalkthrough1/</link>
