@@ -109,8 +109,8 @@ if (!doNotTrack) {
   "keywords": [
     "Vulnhub", "Kioptrix", "Walkthrough", "TCM-SEC", "nikto", "dirbuster", "Burpsuite"
   ],
-  "articleBody": "Default username: John Default Password: TwoCows2 NIKTO `Web Vulneribility Scanner` nikto -h target ip* i.e nikto -host url Findings Outdated Applications - Google common exploits for given Version Apache mod_ssl openssl mod_ssl vulnerable to a remote buffer overflow Little bit of Directory Busting DIRBUSTER Directory Busting / Finding Folders ALternatives: gobuster, dirb, ferox boster dirbuster\u0026 insert target url on Target URL section Check ‘Go Faster’ Check List based brute force Click browse, navigate to /usr/share/wordlists/dirbuster/ Select a list File extension: php,txt,zip choose the extension you want to look for Note: more extension more time START Tip: Dir Scan takes a while. It is always a good idea to start the scan as soon as possible so we can do other task while the scan is running in Background.\nBURPSUITE Security Testing Web Applications start Burpsuite\nSetup your browser for burpsuite from here\nNext, Use Burp default\nStart Burp\nChoose Proxy from Top Menu\nClick on Intercept is off to tun it on and Open Browser Open target url on the browser\non the text area right click \u003e send to repeater\ngo to New option repeater on top menu\ntry changing command and send\nThis can modify website Screenshot or save result for info Disclosure\nGo to Target \u003e Sitemap \u003e Response\nScreenshot for Info Disclosure\nTurn Intercept Off Dirbuster (again) Results are back Lets check folders Usage seems interesting Lets check files in browser At the bottom there is Webalizer 2.01 Lets note that Note: Check through files and sources for possible Passwords and Leaks ",
-  "wordCount" : "256",
+  "articleBody": "Default username: John Default Password: TwoCows2 NIKTO `Web Vulneribility Scanner` nikto -h target ip* i.e nikto -host url Findings Outdated Applications - Google common exploits for given Version Apache mod_ssl openssl mod_ssl vulnerable to a remote buffer overflow Little bit of Directory Busting DIRBUSTER Directory Busting / Finding Folders ALternatives: gobuster, dirb, ferox boster dirbuster\u0026 insert target url on Target URL section Check ‘Go Faster’ Check List based brute force Click browse, navigate to /usr/share/wordlists/dirbuster/ Select a list File extension: php,txt,zip choose the extension you want to look for Note: more extension more time START Tip: Dir Scan takes a while. It is always a good idea to start the scan as soon as possible so we can do other task while the scan is running in Background.\nBURPSUITE Security Testing Web Applications start Burpsuite\nSetup your browser for burpsuite from here\nNext, Use Burp default\nStart Burp\nChoose Proxy from Top Menu\nClick on Intercept is off to tun it on and Open Browser Open target url on the browser\non the text area right click \u003e send to repeater\ngo to New option repeater on top menu\ntry changing command and send\nThis can modify website Screenshot or save result for info Disclosure\nGo to Target \u003e Sitemap \u003e Response\nScreenshot for Info Disclosure\nTurn Intercept Off Dirbuster (again) Results are back Lets check folders Usage seems interesting Lets check files in browser At the bottom there is Webalizer 2.01 Lets note that Note: Check through files and sources for possible Passwords and Leaks METASPLOIT Exploitation Framework msfconsole msf6 \u003e search smb You will see many results, lets find SMB version there’s a path auxiliary/scanner/smb/smb_version (Long way to do it) use auxiliary/scanner/smb/smb_version info We found RHOSTS so far, which stands for Remote Hosts set RHOSTS _Target IP_ run We found Samba 2.2.1a SMB Client Connect to file share smbclient -L \\\\\\\\target ip\\\\ -L lists the files use the slashes() Just Press Enter without Password NOTE: Question: My enum4linux and/or smbclient are not working. I am receiving \"Protocol negotiation failed: NT_STATUS_IO_TIMEOUT\". How do I resolve? Resolution: On Kali, edit /etc/samba/smb.conf Add the following under global: client min protocol = CORE client max protocol = SMB3 Here we find IPC and $admin , $admin is useful to us lets try it Let’s try again smbclient \\\\\\\\target ip\\\\ADMIN$ Wrong Password smbclient -L \\\\\\\\target ip\\\\IPC$ We are inside SMB ls : To list files ACCESS DENIED SSH Remote Login From our nmap scan we have OpenSSH version 2.9p2\nssh target_ip\nTheir offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 ssh target_ip -oKexAlgorithms=+diffie-hellman-group1-sha1\nIt is going to ask for Cypher If you get Their offer: ssh-rsa,ssh-dss\nNavigate to ~/.ssh/config add HOST targetip HostKeyAlgorithms +ssh-dss Now it asks for cypher\nssh target_ip -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes128-cbc\nIts asks for confirmation Type: yes\nIt prompts for password\nLets exit\nWe are not going to exploit Now. ",
+  "wordCount" : "474",
   "inLanguage": "en",
   "datePublished": "2022-12-22T22:51:08+11:00",
   "dateModified": "2022-12-22T22:51:08+11:00",
@@ -223,7 +223,7 @@ if (!doNotTrack) {
       Vulnhub Kioptrix Walkthrough Part 2
     </h1>
     <hr>
-    <div class="post-meta"><span title='2022-12-22 22:51:08 +1100 AEDT'>December 22, 2022</span>&nbsp;·&nbsp;2 min
+    <div class="post-meta"><span title='2022-12-22 22:51:08 +1100 AEDT'>December 22, 2022</span>&nbsp;·&nbsp;3 min
 
 </div>
   </header> 
@@ -346,6 +346,110 @@ ALternatives: gobuster, dirb, ferox boster
 <li>At the bottom there is <em>Webalizer 2.01</em></li>
 <li>Lets note that
 <em><em>Note: Check through files and sources for possible Passwords and Leaks</em></em></li>
+</ul>
+<h3 id="metasploit">METASPLOIT<a hidden class="anchor" aria-hidden="true" href="#metasploit">#</a></h3>
+<pre><code>Exploitation Framework
+</code></pre>
+<ul>
+<li><code>msfconsole</code></li>
+<li>msf6 &gt; <code>search smb</code></li>
+<li>You will see many results, lets find <em>SMB version</em></li>
+<li>there&rsquo;s a path <em>auxiliary/scanner/smb/smb_version</em> (Long way to do it)</li>
+<li><code>use auxiliary/scanner/smb/smb_version</code></li>
+<li><code>info</code></li>
+<li>We found <em>RHOSTS</em> so far, which stands for <em>Remote Hosts</em></li>
+<li><code>set RHOSTS _Target IP_</code></li>
+<li><code>run</code></li>
+<li>We found
+<ul>
+<li>Samba 2.2.1a</li>
+</ul>
+</li>
+</ul>
+<h3 id="smb-client">SMB Client<a hidden class="anchor" aria-hidden="true" href="#smb-client">#</a></h3>
+<pre><code>Connect to file share
+</code></pre>
+<ul>
+<li><code>smbclient -L \\\\target ip\\ </code>
+<ul>
+<li><em>-L</em> lists the files</li>
+<li>use the slashes()</li>
+</ul>
+</li>
+<li>Just Press Enter without Password
+<img loading="lazy" src="/posts/img/kioptrixwt2_7.png" alt="Samba Result"  />
+</li>
+</ul>
+<pre tabindex="0"><code>NOTE: 
+Question: My enum4linux and/or smbclient are not working. I am receiving &#34;Protocol negotiation failed: NT_STATUS_IO_TIMEOUT&#34;. How do I resolve?
+
+Resolution:
+On Kali, edit /etc/samba/smb.conf
+Add the following under global:
+client min protocol = CORE
+client max protocol = SMB3
+</code></pre><ul>
+<li>Here we find IPC and $admin , $admin is useful to us lets try it</li>
+<li>Let&rsquo;s try again</li>
+<li><code>smbclient \\\\target ip\\ADMIN$</code>
+<ul>
+<li>Wrong Password</li>
+</ul>
+</li>
+<li><code>smbclient -L \\\\target ip\\IPC$</code>
+<ul>
+<li>We are inside <em>SMB</em></li>
+<li><code>ls</code> : To list files</li>
+<li><em>ACCESS DENIED</em></li>
+</ul>
+</li>
+</ul>
+<h3 id="ssh">SSH<a hidden class="anchor" aria-hidden="true" href="#ssh">#</a></h3>
+<pre><code>Remote Login
+</code></pre>
+<ul>
+<li>
+<p>From our <code>nmap scan</code> we have <em>OpenSSH version 2.9p2</em></p>
+</li>
+<li>
+<p><code>ssh target_ip</code></p>
+<ul>
+<li><em>Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1</em></li>
+</ul>
+</li>
+<li>
+<p><code>ssh target_ip -oKexAlgorithms=+diffie-hellman-group1-sha1</code></p>
+<ul>
+<li>It is going to ask for Cypher</li>
+</ul>
+</li>
+<li>
+<p>If you get <em>Their offer: ssh-rsa,ssh-dss</em></p>
+<ul>
+<li>Navigate to ~/.ssh/config</li>
+<li>add
+HOST <em>targetip</em>
+HostKeyAlgorithms +ssh-dss</li>
+</ul>
+</li>
+<li>
+<p>Now it asks for <em>cypher</em></p>
+</li>
+<li>
+<p><code>ssh target_ip -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes128-cbc</code></p>
+</li>
+<li>
+<p>Its asks for confirmation <em>Type: yes</em></p>
+</li>
+<li>
+<p>It prompts for password</p>
+</li>
+<li>
+<p>Lets exit</p>
+<ul>
+<li>We are not going to exploit Now.</li>
+</ul>
+</li>
 </ul>
 
 
